@@ -9,5 +9,11 @@ public class Ex04_For {
 			su++;
 		}
 		System.out.println("1-10까지의 합 : "+sum);
+		
+		//무한루프
+		for(;;) {
+			System.out.println("무한루프 실행");
+		}
+		
 	}
 }
